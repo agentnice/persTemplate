@@ -481,7 +481,7 @@ h2::selection,
 
 .Right-L2:after {
     top: 27%;
-    left: 104%!important;
+    /*left: 104%!important;*/
 }
 
 .timeline-content {
@@ -555,10 +555,15 @@ h2::selection,
     left: 112%;
 }
 
-.Right-L2:after, .Right-L1:after {
+.Right-L2:after {
+    top: 27%;
+    left: 104%;
+}
+.Right-L1:after {
     top: 27%;
     left: 112%;
 }
+
 
 .Right-R1:after {
     top: 27%;
