@@ -1,0 +1,276 @@
+@media screen and (max-width: 1360px) {
+  .food-menu {
+    margin-top: 3em;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  main .container .wrapper {
+    width: initial;
+  }
+  .feature {
+    width: 650px;
+  }
+  header .container {
+    padding: 0 100px;
+  }
+  .classic, .small-slider {
+    width: 530px;
+  }
+  article {
+    margin-bottom: 7%;
+  }
+  .lock h2 {
+    font-size: 30px;
+  }
+  .inner-content span:before {
+    margin-left: 25px;
+  }
+  .menu, .drinks, .sides {
+    width: 290px;
+    height: 190px;
+  }
+  footer {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  header {
+    height: 50vh;
+  }
+  .menu-wrapper {
+    width: 27%;
+  }
+  .feature {
+    width: 630px;
+  }
+  .signature {
+    width: 320px;
+  }
+  .big-slider {
+    width: 980px;
+  }
+  .food-menu {
+    width: 1000px;
+  }
+  main .container .wrapper {
+    width: initial;
+  }
+  .classic, .small-slider {
+    width: 490px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .banner-content p {
+    font-size: 12px;
+  }
+  main .container .content {
+    width: 800px;
+  }
+  .big-slider {
+    width: 750px;
+  }
+  .food-menu {
+    width: 800px;
+  }
+  .feature {
+    width: 750px;
+  }
+  .signature, .classic, .small-slider {
+    width: 750px;
+    background-size: 100% 100%;
+    margin: 20px 0;
+  }
+  .slider-1, .slider-2 {
+    background-size: 100% 100%;
+  }
+  .menu, .drinks, .sides {
+    padding-left: 0;
+    height: 160px;
+  }
+  .lock h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  header {
+    height: 45vh;
+  }
+  .feature, .signature, .classic, .small-slider, .big-slider {
+    width: 680px;
+  }
+  .big-burger1 {
+    padding: 0;
+  }
+  .drinks {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .menu, .drinks, .sides {
+    margin-top: 0;
+    height: 135px;
+    width: 240px;
+  }
+  .footer-copyright span {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .contact_us address {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .feature, .signature, .classic, .small-slider, .big-slider {
+    width: 390px;
+    height: 308px;
+    margin: 20px 0;
+    padding: 0;
+    flex-direction: column;
+  }
+  header {
+    align-items: center;
+  }
+  header .container {
+    display: flex;
+    justify-content: center;
+  }
+  main .container .content {
+    width: 400px;
+  }
+  .food-menu {
+    width: 400px;
+    height: 240vh;
+    margin-top: 15px;
+  }
+  .wrapper {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  }
+  .content {
+    width: 400px;
+  }
+  .content_active {
+    transform: translateX(-60%);
+  }
+  .menu-wrapper {
+    width: 55%;
+  }
+  .basic_info ul {
+    margin: 20px 0;
+  }
+  .circle-f {
+    margin: 10px 10px;
+  }
+  .drinks {
+    margin: 20px 0;
+  }
+  .addition-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .lock h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .lock p {
+    font-size: 16px;
+  }
+  article h1 {
+    font-size: 28px;
+  }
+  article h3 {
+    font-size: 18px;
+  }
+  .banner-content {
+    display: none;
+  }
+  .logo {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  footer .container .content {
+    flex-direction: column;
+  }
+  .contact_us, .basic_info, .subscribe {
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .big-slider {
+    margin-top: 100px;
+  }
+  .classic .overlay > :last-child {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .content {
+    width: 300px;
+  }
+  article h1 {
+    font-size: 24px;
+  }
+  article h3 {
+    font-size: 12px;
+  }
+  .edition {
+    margin-left: 10px;
+    font-size: 9px;
+  }
+  .logo {
+    margin-bottom: 35px;
+  }
+  .feature h2 {
+    font-size: 20px;
+  }
+  .feature, .signature, .classic, .small-slider, .big-slider {
+    width: 300px;
+    height: 300px;
+  }
+  .classic .overlay > :last-child {
+    width: 260px;
+    margin: 10px 0;
+  }
+  .classic .overlay h3 {
+    line-height: 23px;
+  }
+  input {
+    padding: 20px 13px;
+  }
+  .info_btn {
+    margin-top: 30px;
+  }
+  .carousel-caption {
+    height: 350px;
+  }
+  .carousel-caption h2 {
+    font-size: 30px;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    font-size: 15px;
+    width: 260px;
+  }
+  .addition-menu {
+    padding-top: 65%;
+  }
+}

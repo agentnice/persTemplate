@@ -1,0 +1,131 @@
+@media screen and (max-width: 1830px) {
+    .photo-1 {
+        top: 5%;
+        left: 2%;
+    }
+
+    .photo-2 {
+        top: 5%;
+        left: 40%;
+    }
+
+    .photo-3 {
+        right: 0;
+        bottom: 5%;
+        margin-right: 20%;
+    }
+
+    .content {
+        width: 600px;
+        height: 100%;
+    }
+
+    h2, span, p { color: #ffffff; }
+}
+
+@media screen and (max-width: 680px) {
+    .photo-1 {
+        top: 2%;
+        left: 2%;
+    }
+
+    .photo-2 {
+        top: 4%;
+        left: 40%;
+    }
+
+    .photo-3 {
+        right: 0;
+        bottom: 2%;
+        margin-right: 20%;
+    }
+
+    p {
+        width: 400px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        background-color: initial;
+    }
+    header {
+        height: 160vh;
+    }
+
+    .photo-2 {
+        top: 20%;
+        left: 30%;
+    }
+
+    .photo-3 {
+        bottom: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 570px) and (orientation: landscape) {
+    img {
+        width: 200px;
+    }
+
+    .photo-2 {
+        top: 0;
+    }
+
+    .photo-3 {
+        bottom: 0;
+    }
+
+    figcaption {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+    .photo-2 {
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .photo-2 {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 320px) and (orientation: portrait){
+    img {
+        width: 300px;
+    }
+
+    .photo-1, .photo-2, .photo-3 {
+        left: 3%;
+    }
+
+    header {
+        height: 195vh;
+    }
+
+    figcaption {
+        display: none;
+    }
+
+    p {
+        width: 290px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .photo-2 {
+        top: 20%;
+    }
+
+    .photo-3 {
+        bottom: 18%;
+    }
+}

@@ -1,0 +1,764 @@
+@media screen and (min-width: 441px) {
+    .icon, .icon a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1610px) {
+    .sl {
+        width: 90%;
+    }
+
+    .sl-slide a img {
+        margin-left: 4%;
+        width: 95%;
+    }
+
+    .left-column {
+        min-width: 25%;
+    }
+
+    #linuxPercent {
+        width: 16.5%;
+    }
+
+    #jsPercent {
+        width: 11%;
+    }
+
+    .copyright {
+        margin-left: 35px;
+    }
+
+    #logotype {
+        margin-left: 36px;
+    }
+
+    #top-menu nav {
+        margin-right: 0;
+    }
+
+    .footer i {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 1546px) {
+    #linuxPercent {
+        width: 17.5%;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    #linuxPercent {
+        width: 18.5%;
+    }
+
+    #jsPercent {
+        width: 13%;
+    }
+
+    .contacts > h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1376px) {
+    #linuxPercent {
+        width: 20%;
+    }
+
+    #jsPercent {
+        width: 13.5%;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    #linuxPercent {
+        width: 21%;
+    }
+
+    #jsPercent {
+        width: 14.5%;
+    }
+
+    .contacts > ul li {
+        font-size: 15px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .contacts ul li span {
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .slider-container {
+        margin-bottom: 60px;
+    }
+
+    .left-column {
+        padding-bottom: 180px;
+    }
+
+    .main-timeline {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-timeline, .right-timeline {
+        margin: 0;
+        min-height: 120px;
+    }
+
+    .left-timeline {
+        margin-top: 30%;
+        margin-bottom: 25%;
+    }
+
+    .Left-L2 {
+        top: -45%;
+        left: 33.3%;
+    }
+
+    .Left-L1 {
+        top: 65%;
+        left: 31.8%;
+    }
+
+    .Right-L2 {
+        top: 65%;
+        left: 32.3%
+    }
+
+    .Right-L1 {
+        top: -45%;
+        left: 31%;
+    }
+
+    .Left-R1, .Right-R1 {
+        top: 10%;
+        left: 30.8%;
+    }
+
+    .Left-R1:after {
+        top: 27%;
+        left: -23%;
+    }
+
+    .Left-L1:after, .Left-L2:after, .Right-L2:after, .Right-L1:after, .Right-R1:after {
+        top: 27%;
+        left: -30%;
+    }
+
+    .Left-L1:before, .Left-L2:before, .Right-L1:before, .Right-L2:before {
+        left: 1%;
+        top: 32%;
+    }
+
+    .main-timeline .left-timeline:before {
+        top: 50%;
+        left: 25%;
+    }
+
+    .main-timeline .right-timeline:before {
+        top: 50%;
+        left: 25%;
+    }
+
+    .left-timeline h4, .right-timeline h4 {
+        width: 150px;
+    }
+
+    .left-timeline h4 {
+        left: 15%;
+        top: -80%;
+    }
+
+    .right-timeline h4 {
+        left: 15%;
+        top: -80%;
+    }
+
+    .social-networks {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ---- iPad Pro Portrait ---- */
+@media (max-width: 1034px) and (orientation: portrait) {
+    .sl {
+        width: 90%;
+    }
+
+    .sl-slide a img {
+        margin-left: 2%;
+        width: 95%;
+    }
+
+    .left-timeline {
+        margin-top: 45%;
+        margin-bottom: 30%;
+    }
+
+    .middle {
+        padding: 20px;
+    }
+
+    .left-column {
+        min-width: 30%;
+        padding-bottom: 0;
+    }
+
+    .middle-timeline {
+        height: 40vh;
+        width: 70%;
+    }
+
+    #linuxPercent {
+        width: 22%;
+    }
+
+    .goals-img {
+        margin: 10% 5%;
+    }
+
+    .wrapper {
+        width: 60%;
+    }
+}
+/* ---- iPad Pro Portrait End ---- */
+
+/* ---- iPad Landscape ---- */
+@media (max-width: 1034px) and (orientation: landscape) {
+    .content{
+        height: 80vh;
+    }
+
+    .copyright {
+        margin-left: 20px;
+    }
+
+    #logotype {
+        margin-left: 20px;
+    }
+
+    #top-menu nav {
+        margin-right: 0;
+    }
+
+    .footer i {
+        margin-right: 20px;
+    }
+}
+/* ---- iPad Landscape End ---- */
+
+
+/* ---- iPad Portrait ---- */
+@media (max-width: 768px) {
+    .left-timeline { margin-top: 45%; margin-bottom: 45%; }
+    .sl { width: 82%; }
+    .sl-slide a img { margin-left: 2%; width: 95%; }
+    .left-column { min-width: 41%; }
+    .right-column { width: 54%; }
+    .middle-timeline { height: 600px; }
+    #logotype { margin-left: 20px; }
+    #top-menu nav { margin-right: 0; }
+    form { width: 500px; }
+}
+
+@media (max-width: 660px) {
+    form { width: 400px; }
+    .contact-form h2 { font-size: 20px; }
+    #name, #email { width: 100%; display: block; }
+}
+
+/* ---- iPad Portrait End ---- */
+
+@media (max-width: 600px) {
+    .middle {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+    }
+
+    .right-column {
+        margin: 25px 0 0 0;
+        height: 110vh;
+    }
+}
+
+@media (max-width: 560px) {
+    form { width: 300px; }
+    .contact-form h2 { font-size: 19px; }
+    #name, #email { width: 100%; display: block; }
+}
+
+@media screen and (max-width: 540px) {
+    .social-footer >:nth-child(2) {
+        margin: 0 10px;
+    }
+    .social-footer i {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 470px) {
+    form { width: 260px; }
+    .contact-form h2 { font-size: 16px; }
+}
+
+@media (max-width: 440px) {
+    .icon, .icon a { width: 40px; }
+    #top-menu nav {
+        display: flex;
+        order: 0;
+        flex-direction: column;
+    }
+
+    #top-menu nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        height: 70px;
+        width: 100%;
+    }
+
+    #logotype {
+        display: flex;
+        order: 1;
+        padding-right: 20px;
+    }
+
+    #top-menu nav ul li {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: block;
+    }
+
+    ul.topnav li {
+        display: none;
+        background-color: #fff;
+        border-bottom: 1px solid #bdc4c7;
+        margin: 0;
+    }
+
+    ul.topnav li:first-child {
+        border-top: 1px solid #bdc4c7;
+    }
+
+    nav a {
+        text-decoration: none;
+        list-style-type: none;
+        width: 100%;
+        color: #434449;
+    }
+
+    #burger {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .topnav {
+        z-index: 9999;
+    }
+}
+
+/* ---- iPhone 6 Plus Portrait ---- */
+@media (max-width: 424px) and (orientation: portrait) {
+    .sl { width: 80%; }
+
+    .left-timeline, .right-timeline { width: 412px; }
+
+    .middle {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-column, .right-column { width: 100%; }
+
+    #linuxPercent { width: 17%; }
+
+    #jsPercent { width: 11%; }
+
+    .timeline-content1 {
+        left: 38%;
+    }
+
+    .timeline-content2 {
+        left: 39%;
+    }
+
+    .contacts > h1 {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    .main-middle {
+        padding: 20px;
+        justify-content: flex-start;
+    }
+
+    .middle-con {
+        align-items: flex-start;
+    }
+
+    .middle-con {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .goals-img {
+        margin: 10% 5%;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    form { width: 240px; }
+    .contact-form { width: 300px; }
+    .contact-form h2 { font-size: 15px; }
+}
+/* ---- iPhone 6 Plus Portrait End ---- */
+
+
+
+
+/* ---- iPhone X Portrait ---- */
+@media (max-width: 385px) and (orientation: portrait) {
+    .sl {
+        width: 74%;
+    }
+
+    .left-timeline, .right-timeline {
+        width: 370px;
+    }
+
+    #linuxPercent { width: 19%; }
+
+    #jsPercent { width: 14%; }
+
+    .right-column { height: 130vh; }
+
+    .middle-timeline .left-timeline:before {
+        left: 10%;
+        margin-left: 7px;
+    }
+
+    .middle-timeline .right-timeline:before {
+        left: 8.8%;
+        margin: 0 0 0 11px;
+    }
+
+    .contacts > h1 {
+        font-size: 13px;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    .main-middle {
+        padding: 20px;
+        justify-content: flex-start;
+    }
+
+    .left-timeline, .right-timeline {
+        margin: 0;
+        min-height: 120px;
+    }
+
+    .left-timeline {
+        margin-top: 80%;
+        margin-bottom: 60%;
+    }
+
+    .main-timeline .left-timeline:before {
+        top: 50%;
+        left: 24%;
+    }
+
+    .main-timeline .right-timeline:before {
+        top: 50%;
+        left: 24%;
+    }
+
+    .left-timeline h4, .right-timeline h4 {
+        width: 150px;
+    }
+
+    .left-timeline h4, .right-timeline h4{
+        left: 15%;
+        top: -80%;
+    }
+
+    footer {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright { margin: 0; margin-top: 20px; }
+    .switch { margin-right: 0; margin-bottom: 15px; }
+}
+/* ---- iPhone X Portrait End ---- */
+
+
+
+
+/* ---- iPhone SE Portrait ---- */
+@media (max-width: 330px) and (orientation: portrait) {
+    .left-timeline, .right-timeline {
+        width: 315px;
+    }
+
+    .main-timeline .left-timeline:before, .main-timeline .right-timeline:before {
+        top: 50%;
+        left: 22%;
+    }
+
+    .middle {
+        padding: 10px;
+    }
+
+    .right-column {
+        height: 140vh;
+    }
+
+    #jsPercent {
+        width: 15%;
+    }
+
+    #linuxPercent {
+        width: 21%;
+    }
+
+    #psPercent {
+        width: 24%;
+    }
+
+    .side-images img {
+        width: 250px;
+    }
+
+    #burger {
+        padding-left: 10px;
+    }
+
+    #logotype {
+        padding-right: 10px;
+    }
+
+    .contacts > h1 {
+        font-size: 12px;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    .contacts {
+        margin: 0;
+    }
+
+    .main-middle {
+        padding: 10px;
+    }
+
+    .loader {
+        top: -45%;
+    }
+}
+/* ---- iPhone SE Portrait End ---- */
+
+/* ---- iPhone's Landscape ---- */
+@media (max-width: 822px) and (orientation: landscape) {
+    .left-column {
+        min-width: 40%;
+    }
+
+    #linuxPercent { width: 21%; }
+    .content { height: 160vh; }
+    .side-images { flex-direction: column; align-items: center; }
+    .side-images img { width: 300px; }
+    .pos-h4 { margin: 35px auto 0 auto; }
+    .pos-h4, .left-timeline h4, .right-timeline h4 { width: 300px; }
+    .middle-timeline { margin-top: 45%; }
+
+    .left-timeline h4 {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right-timeline h4 {
+        left: 0;
+        right: 0;
+        top: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-timeline .left-timeline:before {
+        left: 14%;
+        margin-left: 10px;
+    }
+
+    .middle-timeline .right-timeline:before {
+        left: 12%;
+        margin: 0 0 0 17px;
+    }
+
+    .timeline-content1 {
+        padding: 10px 10px 10px 20px;
+        margin: 20px 0 0 3px;
+        left: 36%;
+    }
+
+    .timeline-content2 {
+        padding: 10px 10px 10px 20px;
+        margin: 20px 0 0 3px;
+        left: 33%;
+    }
+
+    .copyright {
+        margin-left: 21px;
+    }
+
+    .footer i {
+        margin-right: 23px;
+    }
+}
+
+@media (max-width: 746px) and (orientation: landscape) {
+
+    .left-column {
+        min-width: 43%;
+    }
+
+    .right-column {
+        width: 52%;
+    }
+
+    .left-timeline h4, .right-timeline h4, .pos-h4 {
+        width: 250px;
+    }
+
+    .middle-timeline {
+        margin: 0;
+    }
+
+    .timeline-content1 {
+        margin: 20px 0 0 3px;
+        left: 43%;
+    }
+
+    .timeline-content2 {
+        margin: 20px 0 0 4px;
+        left: 40%;
+    }
+}
+
+
+@media (max-width: 677px) and (orientation: landscape) {
+    .left-column {
+        min-width: 47%;
+    }
+
+    .right-column {
+        width: 47.5%;
+    }
+
+    .right-timeline {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 578px) and (orientation: landscape) {
+    .middle {
+        flex-direction: column;
+    }
+
+    #linuxPercent {
+        width: 11.5%;
+    }
+
+    #jsPercent {
+        width: 8%;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+
+    .right-column {
+        margin: 20px 0 0 0;
+    }
+
+    .left-timeline h4, .right-timeline h4, .pos-h4 {
+        width: 300px;
+    }
+
+    .right-timeline h4 {
+        top: 42%;
+    }
+
+    .right-timeline {
+        margin: 0;
+    }
+
+    .content {
+        height: 200vh;
+    }
+
+    .middle-timeline .left-timeline:before {
+        left: 23%;
+        margin-left: 2px;
+    }
+
+    .middle-timeline .right-timeline:before {
+        left: 22.5%;
+        margin-left: 4px;
+    }
+
+    .timeline-content1 {
+        margin: 20px 0 0 3px;
+        left: 45%;
+    }
+
+    .timeline-content2 {
+        margin: 20px 0 0 4px;
+        left: 42%;
+    }
+}
+/* ---- iPhone's Landscape End ---- */
+
+
+
+
+/* ---- Other stuff ---- */
+@media (max-width: 440px) {
+
+    .nightmode ul.topnav li {
+        background-color: #1b1b1b;
+        border-bottom: 1px solid #38383b;
+    }
+
+    .nightmode .topnav li:first-child {
+        border-top: 1px solid #1b1b1b;
+    }
+}
+/* ---- Other stuff End ---- */
