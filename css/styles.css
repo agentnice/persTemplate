@@ -23,17 +23,17 @@ a { text-decoration: none; }
 
 @keyframes css {
     0%   { width: 0; }
-    100% { width: 41%; }
+    100% { width: 60%; }
 }
 
 @keyframes linux {
     0%   { width: 0; }
-    100% { width: 17.5%; }
+    100% { width: 17%; }
 }
 
 @keyframes ps {
     0%   { width: 0; }
-    100% { width: 23%; }
+    100% { width: 25%; }
 }
 
 @keyframes js {
@@ -88,9 +88,9 @@ h2::selection,
 
 /* ---- Percentage ---- */
 #htmlPercent { width: 68%; animation: html 1s ease-in-out; }
-#cssPercent { width: 41%; animation: css 1s ease-in-out; }
+#cssPercent { width: 60%; animation: css 1s ease-in-out; }
 #linuxPercent { width: 17.5%; animation: linux 1s ease-in-out; }
-#psPercent { width: 23%; animation: ps 1s ease-in-out; }
+#psPercent { width: 25%; animation: ps 1s ease-in-out; }
 #jsPercent { width: 11.5%; animation: js 1s ease-in-out; }
 /* ---- End of percentage ---- */
 
