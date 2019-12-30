@@ -90,7 +90,7 @@ h2::selection,
 #htmlPercent { width: 68%; animation: html 1s ease-in-out; }
 #cssPercent { width: 60%; animation: css 1s ease-in-out; }
 #linuxPercent { width: 17.5%; animation: linux 1s ease-in-out; }
-#psPercent { width: 25%; animation: ps 1s ease-in-out; }
+#psPercent { width: 27%; animation: ps 1s ease-in-out; }
 #jsPercent { width: 11.5%; animation: js 1s ease-in-out; }
 /* ---- End of percentage ---- */
 
