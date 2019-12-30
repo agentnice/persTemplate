@@ -293,6 +293,14 @@
         margin: 25px 0 0 0;
         height: 144vh;
     }
+
+    .Left-L1:after  {
+        left: -27%;
+    }
+
+    .Right-L2:after {
+        left: -28%;
+    }
 }
 
 @media (max-width: 560px) {
